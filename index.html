@@ -322,7 +322,13 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="img/logo-green-2x.png" alt="Bigger logo" class="footer__logo">
+
+            <picture class="footer__logo">
+                <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+                    media="(max-width: 600px)">
+                <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Bigger logo">
+            </picture>
+
         </div>
         <div class="row">
             <div class="col-1-of-2">
@@ -340,7 +346,7 @@
                 <p class="footer__copyright">
                     Built by <a href="#" class="footer__link">Haider Satti</a> for his web development journey <a
                         href="#" class="footer__link">Haider's fake website</a>. Copyright &copy; by Haider Satti. You
-                    are 100% not allowed to use this webpage for personal or commercial use, if you do so I will hunt
+                    are a 100% not allowed to use this webpage for personal or commercial use, if you do so I will hunt
                     you down and fu*k you up! Peace.
                 </p>
             </div>
